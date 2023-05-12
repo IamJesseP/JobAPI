@@ -6,7 +6,7 @@ const JobSchema = new mongoose.Schema({
         required:[true, 'Please provide company name'],
         maxLength:50
     },
-    PromiseRejectionEvent:{
+    position:{
         type:String,
         required:[true, 'Please provide position'],
         maxLength:100
@@ -19,7 +19,7 @@ const JobSchema = new mongoose.Schema({
     createdBy:{
         type:mongoose.Types.ObjectId,
         ref:'User',
-        required:[true, 'Please provide username']
+        required:[true, 'Please provide user']
     }
 }, {timestamps:true})
 
