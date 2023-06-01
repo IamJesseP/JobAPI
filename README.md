@@ -1,6 +1,5 @@
 # JobAPI
 A CRUD api with authentication written with Nodejs, Expressjs, and Mongodb.
-This application was created as part of the John Smilga [NodeJS](https://johnsmilga.com/) curriculum
 
 **A live server with documentation of the API for this project can be found [here](https://jobs-api-jesse.herokuapp.com/)**
 
@@ -15,6 +14,8 @@ This application was created as part of the John Smilga [NodeJS](https://johnsmi
 * Visual Studio
 * Git and GitHub
 * Windows 11
+* NPM
+* Postman
 
 
 ## Functionality
@@ -52,6 +53,11 @@ This application was created as part of the John Smilga [NodeJS](https://johnsmi
 ## What I learned
 
 * Backend fundamenetals
-* Working with a NoSQL database
+* Working with a NoSQL database, connecting it to an application
 * Working with authentication and JWT
+* Setting up a RESTful API structure
+* Improved understanding of CRUD API
 * Improved understanding code structure and readability
+
+### Academic
+This application was created as part of the John Smilga [NodeJS](https://johnsmilga.com/) curriculum
